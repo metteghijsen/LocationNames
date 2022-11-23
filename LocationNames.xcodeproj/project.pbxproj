@@ -13,6 +13,7 @@
 		59EB62B7292E16AD0004D65D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EB62B5292E16AD0004D65D /* Main.storyboard */; };
 		59EB62B9292E16AF0004D65D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59EB62B8292E16AF0004D65D /* Assets.xcassets */; };
 		59EB62BC292E16AF0004D65D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59EB62BA292E16AF0004D65D /* LaunchScreen.storyboard */; };
+		59EB62C4292E18C60004D65D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59EB62C3292E18C60004D65D /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		59EB62B8292E16AF0004D65D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		59EB62BB292E16AF0004D65D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59EB62BD292E16AF0004D65D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59EB62C3292E18C60004D65D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				59EB62AF292E16AD0004D65D /* AppDelegate.swift */,
 				59EB62B1292E16AD0004D65D /* SceneDelegate.swift */,
 				59EB62B3292E16AD0004D65D /* ViewController.swift */,
+				59EB62C3292E18C60004D65D /* LocationManager.swift */,
 				59EB62B5292E16AD0004D65D /* Main.storyboard */,
 				59EB62B8292E16AF0004D65D /* Assets.xcassets */,
 				59EB62BA292E16AF0004D65D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59EB62C4292E18C60004D65D /* LocationManager.swift in Sources */,
 				59EB62B4292E16AD0004D65D /* ViewController.swift in Sources */,
 				59EB62B0292E16AD0004D65D /* AppDelegate.swift in Sources */,
 				59EB62B2292E16AD0004D65D /* SceneDelegate.swift in Sources */,
